@@ -25,3 +25,8 @@ May 24:
         c. REFLECTION about the proportions of the documents. Some docs are much smaller then others, then how does it work its representation in front of the model?
     
     > About Update Topics, see: https://colab.research.google.com/drive/1FieRA9fLdkQEGDIMYl0I3MCjSUKVF8C-?usp=sharing#scrollTo=zpm9LsKW6mi5
+
+May 28:
+
+    > Reviewing the cleaning step.
+    
