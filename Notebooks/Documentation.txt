@@ -30,3 +30,61 @@ May 28:
 
     > Reviewing the cleaning step.
     
+    > Tasks:
+        > Customize the list of stopwords => remove name of Countries and very repeated names (AI, data, datum)
+        > Use a LLM to represent the topics (llama, openai, etc)
+
+
+May 29:
+
+    > Finetuning:
+        - HDBSCAN: clustering algo. 'min_cluster_size' and 'min_samples'.
+
+
+May 31:
+
+    > My experiments showed that OCR has more precision that Langchain in terms of extract text data from PDF.
+    > Langchain = Better in removing other language from the text
+    > OCR = nao remove a lingua estrangeira, mas eh mlhr para evitar palavras coladas.
+
+
+
+        - Use OCR to extract, and Langchain to split the documents up.
+            #OBS: To use OCR, we have to import our previous dataframe from the last experiment (folder: AI Regulation, NLP, LDA, Clustering)
+        - Fixing OCR errors:
+            - Terms like: SCAN, SCANhere, SCAN here, 
+
+June 10:
+
+    > Use OpenAI as a representative model;
+    > Summarize your DataVis: intertopic distance map; topics barchart; Docs clusters; Hierarchical Clustering.
+    
+    # URGENT: feed your model with all data (every National Strategy)
+
+June 13:
+
+    > Customized cleaning: Eliminate references to countries (its name and derivations)
+
+
+## QUALITATIVE Analysis:
+    a. Methods section - Describing the topic modeling 
+    b. Section - Results
+
+
+## National AI Strategy docs:
+    - Australia: AI Ethics Principles (current doc) - I downloaded: AI Action Plan
+    - South America: most docs are in Spanish, and Brazil in Portuguese. They had to be excluded. 
+    - North America: 
+        Mexico in Spanish; 
+       #### Canada - there is a National Strategy, but it is spread out in topics along the Canadian Institute for Advanced Research (CIFAR) website rather congregated in one formal document;
+        USA -  ok
+    
+    - EUROPE:
+        - Forthcoming: Iceland; 
+      #### Finland: They have a program (AI 4.0) and present some reports compiling the concrete objectives and proposed measures for achieving the artificial intelligence
+      ### Estonia: The strategy is a sum of actions that Estonian government will take to advance the takeup of AI in both private and public sector, to increase the relevant skills and research and
+development (R&D) base as well as to develop the legal environment.
+      #### Latvia, France: there is a doc, but I could not access neither in the oecd website nor in european comission.
+      - Ukraine, Hungary, Slovenia, Austria, Belgium, Cyprus: not in english
+      - Slovakia: not an exactly National Strategy, but an action plan for digital transformation.
+      - 
